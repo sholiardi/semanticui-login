@@ -44,7 +44,12 @@
     .column {
       max-width: 450px;
     }
+    .ui.grid > .column:not(.row) {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
   </style>
+
   <script>
   $(document)
     .ready(function() {
